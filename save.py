@@ -1,4 +1,4 @@
-import configparser, mouse, keyboard
+import configparser, keyboard
 from time import sleep
 from utils import move_and_click, press_and_wait
 

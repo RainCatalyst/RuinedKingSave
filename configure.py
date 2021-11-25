@@ -14,7 +14,7 @@ if not config.has_section('buttons'):
     config.add_section('buttons')
 
 # Wait for key press
-print('Hover the load/save button in the game window and press space.')
+print('Hover the Save/Load button in the game window and press space.')
 keyboard.wait('space')
 
 # Store mouse position
