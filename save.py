@@ -34,5 +34,6 @@ def save():
 keyboard.add_hotkey(config['user']['save_shortcut'], save)
 
 # Wait for exit
+print(f"Press {' + '.join(map(str.title, config['user']['save_shortcut'].split('+')))} to save")
 print('Press Ctrl + C to exit')
 keyboard.wait()
